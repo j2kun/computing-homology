@@ -90,7 +90,7 @@ def finishRowReducing(B):
             continue
          if B[otherRow, j] != 0:
             scaleAmt = -B[otherRow, j]
-            rowCombine(B, otherRow, j, scaleAmt)
+            rowCombine(B, otherRow, i, scaleAmt)
 
       i += 1; j+= 1
 
